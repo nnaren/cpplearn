@@ -4,6 +4,8 @@
 
 #ifndef CPPLEARN_FILLCONTEXT_H
 #define CPPLEARN_FILLCONTEXT_H
+
+#include <stdio.h>
 class FillContext{
 public:
 
@@ -16,4 +18,8 @@ public:
     int z;
 
 };
+
+
+
+
 #endif //CPPLEARN_FILLCONTEXT_H
