@@ -6,18 +6,29 @@
 #define CPPLEARN_FILLCONTEXT_H
 
 #include <stdio.h>
+
 class FillContext{
 public:
 
     FillContext();
     ~FillContext();
-    FillContext(int x,int y,int z);
+    FillContext(int, int, int);
 
     int x;
     int y;
     int z;
 
 };
+
+inline FillContext::~FillContext(){
+    printf("end");
+}
+
+inline FillContext::FillContext(int x, int y, int z) {
+    this->x = x;
+    this->y = y;
+    this->z = z;
+}
 
 
 
