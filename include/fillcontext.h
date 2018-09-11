@@ -6,6 +6,11 @@
 #define CPPLEARN_FILLCONTEXT_H
 class FillContext{
 public:
+
+    FillContext();
+    ~FillContext();
+    FillContext(int x,int y,int z);
+
     int x;
     int y;
     int z;
