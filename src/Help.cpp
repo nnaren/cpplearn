@@ -5,8 +5,8 @@
 #include "Help.h"
 #include <stdio.h>
 #include <iostream>
-void Service1Help::print(){
-    std::cout << "HELP[Service1]" << std::endl;
+void Service1Help::show(){
+    std::cout << "HELP:Service1" << std::endl;
     std::cout << "add" << std::endl;
     std::cout << "delete" << std::endl;
     std::cout << "multipalte" << std::endl;

@@ -8,12 +8,12 @@ class Help {
 public:
     Help(){};
     ~Help(){};
-    void print(){};
+    void show(){};
 };
 class Service1Help : public Help {
 public:
     Service1Help(){};
     ~Service1Help(){};
-    void print();
+    void show();
 };
 #endif //CPPLEARN_HELP_H

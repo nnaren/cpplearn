@@ -20,17 +20,22 @@ int main(){
         else if (order == "add") {
             std::cout << "Now, do function add" << std::endl;
             int a = ServiceType::Delete;
+            Service1 srv1;
+            std::cout <<  srv1.add()<< std::endl;
+            std::cout << srv1.getTypeID()<< std::endl;
             std:: cout << a << std::endl;
         } else if ("help"== order){
             Service1Help serv1help;
-            serv1help.print();
+            serv1help.show();
+
 
         }
         else {
             std::cout << "You typed: \"" + order + "\", but the ORDER cannot find. please input again."<< std::endl;
 
-    }
+        }
 
 
     }
+    return SUCC;
 }
